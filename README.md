@@ -23,6 +23,13 @@ Implementation of basic data structures and algorithms in C++.
 
 ### Sorting
 
+- [Bubble Sort](./algorithms/sorting/bubble_sort.cpp)
+    * Time Complexity:
+        + Best: O(n) w/ early stopping, otherwise O(n²)
+        + Average: O(n²)
+        + Worst: O(n²)
+    * Space Complexity: O(1)
+
 ## Data Structures
 
 ## Useful Resources

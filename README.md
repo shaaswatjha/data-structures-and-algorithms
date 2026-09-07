@@ -35,6 +35,6 @@ Implementation of basic data structures and algorithms in C++.
 ## Compiling & Running Programs
 
 ```bash
-g++ -std=c++20 -O3 -Wall -Wextra -Wpedantic program.cpp -o program
-./program <cli-arguments>
+g++ -std=c++20 -O3 -Wall -Wextra -Wpedantic program.cpp -o program.out
+./program.out <cli-arguments>
 ```

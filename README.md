@@ -25,10 +25,19 @@ Implementation of basic data structures and algorithms in C++.
 
 - [Bubble Sort](./algorithms/sorting/bubble_sort.cpp)
     * Time Complexity:
-        + Best: O(n) w/ early stopping, otherwise O(n²)
+        + Best: O(n) w/ early stopping, O(n²) otherwise
         + Average: O(n²)
         + Worst: O(n²)
     * Space Complexity: O(1)
+
+- [Merge Sort](./algorithms/sorting/merge_sort.cpp)
+    * Time Complexity:
+        + Best: O(n log n)
+        + Average: O(n log n)
+        + Worst: O(n log n)
+    * Space Complexity: O(n)
+
+    The recursive version of merge sort additionally uses O(log n) call-stack space but overall it works out to be O(n).
 
 ## Data Structures
 
